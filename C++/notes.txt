@@ -1,0 +1,15 @@
+I will use the following features while working on personal projects in C++:
+
+- 'new' keyword: forget about malloc(), etc.
+- 'auto' because I hate typing out types.
+- standalone function overloading; I'm okay with it since the compiler I'm
+  using appends types to non-overloaded standalone functions anyway.
+
+This is it for now.
+More notes will be added as I progress as a C++ developer.
+
+Other than these, I want to keep my C++ pretty close to C... I do realize
+modern C++ has lambdas and all sorts of interesting stuff, but I'd rather
+use those in TypeScript.
+
+In fact, I'd dare to say I want to use K&R C on steroids.
