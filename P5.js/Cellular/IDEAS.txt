@@ -1,0 +1,1 @@
+- add "radiation" to the automaton which will toggle N number of cells.

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cell Automaton</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="../Lib/p5.min.js"></script>
+    <script src="../Lib/jquery-3.6.3.min.js"></script>
+    <script src="sketch.js"></script>
+  </head>
+
+  <body style="text-align: center;">
+    <table>
+      <tr>
+        <td>
+          <!-- The options on the left. -->
+          <table style="margin: auto;">
+            <tr>
+              <!-- Options. -->
+              <td>
+                <!-- Left column. -->
+                <p class="bold">Numbers of survival</p>
+                <input type="text" id="input_num_survival" value="2,3" />
+
+                <p class="bold">Framerate</p>
+                <input type="text" id="input_fps" value="12" />
+
+                <p class="bold">Living color (RGB)</p>
+                <input type="text" id="input_living_color" value="255, 255, 255" />
+              </td>
+              <td>
+                <!-- Right column. -->
+                <p class="bold">Numbers of birth</p>
+                <input type="text" id="input_num_birth" value="3" />
+
+                <p class="bold">Background color (RGB)</p>
+                <input type="text" id="input_bg_color" value="0,0,0" />
+
+                <p class="bold">Dead color (RGB)</p>
+                <input type="text" id="input_dead_color" value="100, 100, 100" />
+              </td>
+            </tr>
+
+            <!-- For the info on whether the program is running or not. -->
+            <tr>
+              <td colspan="2">
+                <p id="running_info" style="font-weight: bold; color: white"></p>
+              </td>
+            </tr>
+          </table>
+
+          <!-- Control options on bottom left. -->
+          <p>----------------------------------------------------------------------------</p>
+          <p>Click on any cell to toggle its state.</p>
+          <p>Press R to toggle running.</p>
+          <p>Press S to step a turn at a time.</p>
+          <p>Press I to clear the entire map.</p>
+          <p>Press G to randomize states.</p>
+        </td>
+
+        <td>
+          <!-- Main display on the right. -->
+          <main>
+          </main>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

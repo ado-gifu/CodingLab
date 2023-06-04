@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>8-bit Colors</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="../Lib/p5.min.js"></script>
+    <script src="../Lib/jquery-3.6.3.min.js"></script>
+    <script src="sketch.js"></script>
+  </head>
+
+  <body style="text-align: center; background-color:gray">
+    <table>
+      <tr>
+        <td>
+          <p class="bold" style="color: white;">
+            In the window on the right, <br>
+            multiple tables of 8-bit color palettes<br>
+            are displayed and compared side by side.
+          </p>
+          <p class="bold" style="color: white;">
+            On the top:<br>
+            Left: r-g-b consist of 2 bits each.<br>
+            These can potentially be tightly packed, saving bits.<br>
+            <br>
+            Middle: RGB pattern is 2-3-3.<br>
+            This table has very nice gradients of color and rich values.<br>
+            Due to disligned nature of its fields' values, gray is conditional.<br>
+            Right: RGB pattern is 3-3-2<br>
+          </p>
+        </td>
+
+        <td>
+          <!-- Main display on the right. -->
+          <main>
+          </main>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
